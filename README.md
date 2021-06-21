@@ -9,3 +9,9 @@ The goal of this particular project is just to re-do the homepage first, and con
 
 # More Details and our Blog
 https://codeforphilly.org/projects/code_for_philly_website_redesign
+
+# Development
+## Changing HTML
+
+1. Make changes in files in html/.
+1. Run `node compile_html.js`, which uses html/ to update final HTML pages. Alternatively, you can manually update the final HTML pages by copying & pasting from html/ to the final HTML pages.
