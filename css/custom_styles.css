@@ -5,7 +5,11 @@
 /* BEGIN volunteer_main.html */
 .volunteer-intro {
   background-color: #fff;  /* copy bootstrap's .card */
+  font-size: 150%;
   padding-top: 120px;  /* do not overlap with navbar. ENHANCE: there's a cleaner way to do this? */
+}
+.volunteer-intro p {
+  color: #6c757d;
 }
 #volunteer__main {
   background-color: #212529;  /* copy bootstrap's #mainNav */
