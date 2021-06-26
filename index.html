@@ -207,11 +207,11 @@
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x text-danger"></i></div>
                       </div>
-                      <img class="img-fluid" src="assets/img/portfolio/pp.jpg" alt="" />
+                      <!-- <img class="img-fluid" src="assets/img/portfolio/pp.jpg" alt="" /> -->
                   </a>
                   <div class="portfolio-caption">
-                      <div class="portfolio-caption-heading">Prevention Point</div>
-                      <div class="portfolio-caption-subheading text-muted">Needle Exchange</div>
+                      <div class="portfolio-caption-heading">MATchMapper</div>
+                      <div class="portfolio-caption-subheading text-muted">Medication-assisted treatment (MAT)</div>
                   </div>
               </div>
           </div>
@@ -773,59 +773,50 @@ NOTES:         DEVELOPER, NON PROFIT, VOLUNTEER
       </div>
   </div>
 </div>
-<!-- Modal 3-->
+<!-- Modal 3 -->
 <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-      <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
-          </div>
-          <div class="container">
-              <div class="row justify-content-center">
-                  <div class="col-lg-8">
-                      <div class="modal-body">
-                          <!-- Project Details Go Here-->
-                          <h2 class="text-uppercase">Prevention Point</h2>
-                          <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/pp.jpg" alt="" />
-                          <p class="text-justify">Prevention Point is a private nonprofit organization providing harm reduction
-                              services to Philadelphia and the surrounding area.</p>
-                          <p class="text-justify">Currently, they are storing data from their programs in separate Excel spreadsheets,
-                              disparate EHRs, and partner data systems. This prevents them from being able to see
-                              all activities associated with an individual program participant, and also makes it
-                              impossible for them to do meaningful analyses that monitor program health and
-                              evaluate efforts.</p>
-                          <p class="text-justify">This project would work to migrate all of the disparate data sources into one system,
-                              make a UI that allows Prevention Point to access all participant data in one system,
-                              and increase the ease with which program coordinators can evaluate and monitor
-                              activities.</p>
-                          <p>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                  class="bi bi-link" viewBox="0 0 16 16">
-                                  <path
-                                      d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
-                                  <path
-                                      d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
-                              </svg>
-                              <a href="https://codeforphilly.org/projects/prevention_point_unified_reporting_system">codeforphilly.org/projects/prevention_point_unified_reporting_system</a>
-                              &nbsp;&nbsp;&nbsp;
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                  class="bi bi-envelope" viewBox="0 0 16 16">
-                                  <path
-                                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-                              </svg>
-                              <a href="mailto:email@goes.here">email@goes.here</a>
-                          </p>
-                          
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="modal-footer">
-              <a href="http://www.phlask.me" class="btn btn-primary">Learn More</a>
-              <a href="http://www.phlask.me" class="btn btn-primary">Get Involved</a>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-      </div>
-  </div>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here-->
+                            <h2 class="text-uppercase">MATchMapper</h2>
+                            <p class="text-justify">Philadelphia is among the cities hit hardest by the opioid crisis. Medication-assisted treatment (MAT), particularly buprenorphine, is identified as “the gold standard of care” for opioid use disorder. Unfortunately, information on the availability of MAT is currently spread across multiple databases and search tools. Furthermore, many listings are outdated. Any given search thus risks both wasting time on options that no longer exist and leaving out good possibilities!</p>
+                            <p class="text-justify">The MATchMapper project brings together scattered public data on MAT availability in the Philadelphia area so 1) referrers and treatment seekers can search a more comprehensive and accurate directory—with map—and 2) public-health departments can review and update frequently changing local data more conveniently.</p>
+                            <p class="text-justify">To serve both sets of users, we have created a pipeline with Python scripts that retrieve and combine relevant data from several key sources (national, state, and local). We are refining this pipeline to coordinate automatic and manual updates and store the results in a PostgreSQL database. We are also building a Django app to manage the database and serve data to two sets of frontend interfaces—Finder and Editor—created with Figma, and to map MAT sites using an R Shiny app or Mapbox plugin.</p>
+                            <p class="text-justify">Referrers and treatment seekers can use the Finder to search and filter the data on a variety of fields including specific treatments offered and insurance networks accepted.</p></p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-link" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
+                                    <path
+                                        d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z" />
+                                </svg>
+                                <a href="https://codeforphilly.org/projects/matchmapper">https://codeforphilly.org/projects/matchmapper</a>
+                                <br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                                </svg>
+                                <a href="mailto:tuneful@mycosphere.com">tuneful@mycosphere.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://codeforphilly.org/projects/matchmapper" class="btn btn-primary">Learn More</a>
+                <a href="https://codeforphilly.org/projects/matchmapper" class="btn btn-primary">Get Involved</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- Modal 4-->
 <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
