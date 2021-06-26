@@ -12,9 +12,13 @@ https://codeforphilly.org/projects/code_for_philly_website_redesign
 
 # How to change a project on the home page
 
-There are 2 things to change:
+There are 2 things to change in index.html:
 - the project card in the "Portfolio Grid", and
 - the modal that pop ups when you click on the project card.
+
+You can change index.html by going to https://github.com/CodeForPhilly/cfp-mockup/blob/main/index.html then clicking the edit button, which looks like a pencil. It's close to the "Raw" and "Blame" buttons.
+
+Below are instructions on how to change index.html. Here is an example change: https://github.com/ZacharyRSmith/cfp-mockup/pull/1/files
 
 How to change the project card:
 
