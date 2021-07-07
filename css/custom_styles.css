@@ -15,3 +15,16 @@
   background-color: #212529;  /* copy bootstrap's #mainNav */
 }
 /* END volunteer_main.html */
+
+
+#main-video {
+  padding: 0;
+  padding-top: 4.5rem;
+}
+
+@media (max-width: 992px) {
+  #main-video {
+    padding: 0;
+    padding-top: 126px;
+  }
+}
