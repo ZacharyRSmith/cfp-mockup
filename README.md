@@ -33,7 +33,9 @@ How to change the popup modal:
 2. Now that your HTML is ready, find the modal to replace in index.html by searching for the popup modal id. Replace it with your HTML.
 
 # Development
-## Changing HTML
+## Changing nav or footer
 
-1. Make changes in files in html/.
-1. Run `node compile_html.js`, which uses html/ to update final HTML pages. Alternatively, you can manually update the final HTML pages by copying & pasting from html/ to the final HTML pages.
+1. Make changes in index.html
+1. Either:
+- run `node sync_nav_and_footer.js`, or
+- manually update the final HTML pages by copying & pasting from index.html to the other pages (currently sponsor.html and volunteer.html).
