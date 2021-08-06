@@ -2,26 +2,33 @@
   color: inherit;
 }
 
-/* BEGIN volunteer_main.html */
+/* BEGIN CSS for sponsor.html & volunteer.html */
 
-.volunteer-intro {
+.secondary-page-intro {
+  padding-top: 150px;  /* do not overlap with navbar. ENHANCE: there's a cleaner way to do this? */
+}
+.secondary-page-div {
   background-color: #fff;
   /* copy bootstrap's .card */
   font-size: 150%;
-  padding-top: 120px;
-  /* do not overlap with navbar. ENHANCE: there's a cleaner way to do this? */
 }
 
-.volunteer-intro p {
+.secondary-page-intro p {
   color: #6c757d;
 }
 
-#volunteer__main {
+#secondary__main {
   background-color: #212529;
   /* copy bootstrap's #mainNav */
 }
+#secondary__main li {
+  color: #6c757d;
+}
+#secondary__main img {
+  padding: 0;
+}
 
-/* END volunteer_main.html */
+/* END CSS for sponsor.html & volunteer.html */
 
 #main-video {
   padding: 0;
