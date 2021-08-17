@@ -561,20 +561,36 @@ pre code {
   .container-sm, .container {
     max-width: 540px;
   }
+  .list-center {
+    margin: auto;
+    width: 100%;
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
+  }
+  .list-center {
+    margin: auto;
+    width: 90%;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+  .list-center {
+    margin: auto;
+    width: 70%;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+  }
+  .list-center {
+    margin: auto;
+    width: 50%;
   }
 }
 .row {
